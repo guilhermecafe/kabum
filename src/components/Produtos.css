@@ -1,0 +1,94 @@
+.divisao_apresenta {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.divisao_apresenta .filtros {
+  width: 25vw;
+  height: 40vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.divisao_apresenta .filtros .filtros-interna {
+  width: 100%;
+  background: #fff;
+  margin: 1vw;
+}
+
+.divisao_apresenta .filtros .filtros-interna h2 {
+  padding: 0 1vw;
+  width: 100%;
+}
+
+.divisao_apresenta .filtros .filtros-interna .busca {
+  padding: 0 1vw;
+}
+
+.divisao_apresenta .filtros .filtros-interna .busca input {
+  margin-right: 0.5vw;
+  width: 70%;
+  padding: 0.3vw 0;
+}
+
+.divisao_apresenta .filtros .filtros-interna .busca button {
+  width: 25%;
+  padding: 0.3vw 0;
+}
+
+.divisao_apresenta .produtos {
+  width: 75vw;
+}
+
+.divisao_apresenta .produtos .produtos-interna {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.divisao_apresenta .produtos .produtos-interna .itens {
+  width: 22%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: whitesmoke;
+  margin: 1vw;
+  -webkit-box-shadow: 0px 10px 43px 1px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 10px 43px 1px rgba(0, 0, 0, 0.14);
+  text-align: center;
+  padding-bottom: 2vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.divisao_apresenta .produtos .produtos-interna .itens img {
+  width: 100%;
+  height: auto;
+}
+
+.divisao_apresenta .produtos .produtos-interna .itens h3 {
+  padding: 0 2vw;
+}
+
+.divisao_apresenta .produtos .produtos-interna .itens button {
+  width: 80%;
+  padding: 0.4vw;
+}
+/*# sourceMappingURL=Produtos.css.map */
