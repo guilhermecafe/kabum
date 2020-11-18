@@ -1,0 +1,184 @@
+.divisao_apresenta {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .filtros {
+        display: flex;
+        height: auto;
+        width: 100%;
+        .filtros-interna {
+            width: 100%;
+            .busca {
+                padding: 0 1vw;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                .filtro {
+                    color: #fff;
+                    font-family: Arial;
+                    select {
+                        border: none;
+                        font-family: Arial;
+                        font-size: 0.8vw;
+                        padding: 0.5vw 1vw;
+                        border-radius: 0.7vw;
+                        margin: 0 0.6vw;
+                        cursor: pointer;
+                        @media (min-width: 0) and (max-width: 991px) {
+                            font-size: 3vw;
+                        }
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+                }
+                input {
+                    margin-right: 0.5vw;
+                    border: 1px solid rgba(78, 78, 78, 0.5);
+                    border-radius: 0.7vw;
+                    padding: 0.6vw;
+                    width: 36vw;
+                    font-size: 0.8vw;
+                    font-family: Arial;
+                    @media (min-width: 0) and (max-width: 991px) {
+                        font-size: 3vw;
+                    }
+                    &:focus {
+                        outline: none;
+                    }
+                }
+                button {
+                    background: #05529c;
+                    color: #fff;
+                    font-family: Arial;
+                    width: auto;
+                    padding: 0.8vw 2vw;
+                    border: none;
+                    border-radius: 0.7vw;
+                    font-size: 0.8vw;
+                    cursor: pointer;
+                    @media (min-width: 0) and (max-width: 991px) {
+                        font-size: 3vw;
+                        padding: 0.9vw 2vw;
+                    }
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+        }
+    }
+    .produtos {
+        width: 75vw;
+        @media (min-width: 0) and (max-width: 991px) {
+            width: 87vw;
+        }
+        #produtos-apresenta {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 3vw;
+            @media (min-width: 0) and (max-width: 991px) {
+                flex-direction: column;
+                align-items: center;
+            }
+            .itens {
+                width: 17.6vw;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                background: rgb(245, 245, 245);
+                margin: 0.7vw 0.5761vw;
+                -webkit-box-shadow: 0px 10px 43px 1px rgba(0,0,0,0.14);
+                -moz-box-shadow: 0px 10px 43px 1px rgba(0,0,0,0.14);
+                box-shadow: 0px 10px 43px 1px rgba(0,0,0,0.14);
+                text-align: center;
+                padding-bottom: 2vw;
+                align-items: center;
+                border-radius: 0.7vw;
+                overflow: hidden;
+                @media (min-width: 0) and (max-width: 991px) {
+                    width: 95%;
+                    margin: 3% 0%;
+                }
+                .image_prod {
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 10%;
+                    background: #fff;;
+                    img {
+                        width: 80%;
+                        height: auto; 
+                    }
+                }
+                h3 {
+                    padding: 0 2vw;
+                    font-family: Arial;
+                    font-size: 1vw;
+                    color: #05529c;
+                    flex-grow: 1;
+                    @media (min-width: 0) and (max-width: 991px) {
+                        font-size: 4vw;
+                        margin: 5vw 0;
+                    }
+                }
+                button {
+                    -webkit-transition: 0.8s;
+                    transition: 0.8s;
+                    width: 80%;
+                    padding: 0.6vw;
+                    color: #fff;
+                    font-family: Arial;
+                    font-size: 0.8vw;
+                    border-radius: 0.3vw;
+                    cursor: pointer;
+                    background: transparent;
+                    border: 1px solid #f60;
+                    color: #f60;
+                    @media (min-width: 0) and (max-width: 991px) {
+                        font-size: 3vw;
+                        padding: 3vw;
+                        border-radius: 2vw;
+                    }
+                    &:hover {
+                        -webkit-transition: 0.8s;
+                        transition: 0.8s;
+                        background: #f60;
+                        color: #fff;
+                    }
+                }
+                a {
+                    -webkit-transition: 0.8s;
+                    transition: 0.8s;
+                    padding: 0.5vw 2vw;
+                    text-decoration: none;
+                    border-radius: 0.3vw;
+                    margin: 1vw 0 0 0;
+                    border: 1px solid #05529c;
+                    background: transparent;
+                    color: #05529c;
+                    @media (min-width: 0) and (max-width: 991px) {
+                         font-size: 3vw;
+                        padding: 2vw 3vw;
+                        border-radius: 2vw;
+                        margin: 4vw 0 2vw 0;
+                    }
+                    &:hover {
+                        -webkit-transition: 0.8s;
+                        transition: 0.8s;
+                        background: #05529c;
+                        color: #fff; 
+                    }
+                }
+            } 
+        }
+    }
+}

@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Topo from '../components/Topo'
-import Produtos from '../components/Produtos'
-import ProdutosApresenta from '../components/ProdutosApresenta'
+import Topo from '../components/Topo/Topo'
+
+import Produtos from '../components/Produtos/Produtos'
 
 export default () => (
     <div className="home_page">

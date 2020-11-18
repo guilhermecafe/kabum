@@ -1,0 +1,80 @@
+.produto_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .produto-interna {
+        border-radius: 1vw;
+        width: 75vw;
+        height: 40vw;
+        background: #fff;
+        margin: 2vw;
+        display: flex;
+        @media (min-width: 0) and (max-width: 991px) {
+            flex-direction: column;
+            height: auto;
+            align-items: center;
+            margin: 2vw 0 10vw 0;
+        }
+        .imagem-produto {
+            width: 50vw;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            @media (min-width: 0) and (max-width: 991px) {
+                padding: 7vw 0 0 0;
+            }
+            img {
+                width: 60%;
+                height: auto;
+            }
+        }
+        .descricao-produto {
+            width: 40vw;
+            padding: 4vw 9vw 4vw 0vw;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            @media (min-width: 0) and (max-width: 991px) {
+                padding: 4vw 0 7vw 0;
+                width: 50vw;
+            }
+            h1 {
+                font-family: Arial;
+                font-size: 1.8vw;
+                @media (min-width: 0) and (max-width: 991px) {
+                    font-size: 3.8vw;
+                }
+            }
+            p {
+                font-family: Arial;
+                font-size: 0.8vw;
+                color: rgba(78,78,78,0.7);
+                @media (min-width: 0) and (max-width: 991px) {
+                    font-size: 2.8vw;
+                }
+            }
+            button {
+                -webkit-transition: 0.8s;
+                transition: 0.8s;
+                font-family: Arial;
+                margin: 1.5vw 0;
+                font-size: 1vw;
+                padding: 1vw;
+                border-radius: 0.5vw;
+                cursor: pointer;
+                background: transparent;
+                border: 1px solid #f60;
+                color: #f60;
+                @media (min-width: 0) and (max-width: 991px) {
+                    font-size: 3vw;
+                    padding: 3vw 5vw;
+                }
+                &:hover {
+                    background: #f60;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,67 @@
+.topo-teste {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4vw 0;
+    @media (min-width: 0) and (max-width: 991px) {
+        justify-content: space-between;
+        margin: 5vw 0;
+    }
+    h1 {
+        color: #fff;
+        font-size: 2vw;
+    }
+    a {
+        text-decoration: none;
+        &.logo_kabum {
+            @media (min-width: 0) and (max-width: 991px) {
+                width: 35vw;
+                margin-left: 7vw;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+        &.carrinho_divisao {
+            position: absolute;
+            right: 3vw;
+            text-decoration: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            @media (min-width: 0) and (max-width: 991px) {
+                right: 7vw;
+            }
+            .name_qtd {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                h3 {
+                    font-family: Arial;
+                    color: #fff;
+                    margin: 0 0.7vw 0.2vw 0;
+                    @media (min-width: 0) and (max-width: 991px) {
+                        font-size: 3.4vw;
+                        margin: 0 2vw 1vw 0;
+                    }
+                }
+                span {
+                    color: rgba(255, 255, 255, 0.7);
+                    margin: 0 0.7vw 0 0;
+                    font-family: Arial;
+                    @media (min-width: 0) and (max-width: 991px) {
+                        font-size: 2.8vw;
+                        margin: 0 2vw 0vw 0;
+                    }
+                    u {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

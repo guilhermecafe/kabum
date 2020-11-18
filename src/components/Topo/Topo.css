@@ -1,0 +1,113 @@
+.topo-teste {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 4vw 0;
+}
+
+@media (min-width: 0) and (max-width: 991px) {
+  .topo-teste {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 5vw 0;
+  }
+}
+
+.topo-teste h1 {
+  color: #fff;
+  font-size: 2vw;
+}
+
+.topo-teste a {
+  text-decoration: none;
+}
+
+@media (min-width: 0) and (max-width: 991px) {
+  .topo-teste a.logo_kabum {
+    width: 35vw;
+    margin-left: 7vw;
+  }
+  .topo-teste a.logo_kabum img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.topo-teste a.carrinho_divisao {
+  position: absolute;
+  right: 3vw;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 0) and (max-width: 991px) {
+  .topo-teste a.carrinho_divisao {
+    right: 7vw;
+  }
+}
+
+.topo-teste a.carrinho_divisao .name_qtd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.topo-teste a.carrinho_divisao .name_qtd h3 {
+  font-family: Arial;
+  color: #fff;
+  margin: 0 0.7vw 0.2vw 0;
+}
+
+@media (min-width: 0) and (max-width: 991px) {
+  .topo-teste a.carrinho_divisao .name_qtd h3 {
+    font-size: 3.4vw;
+    margin: 0 2vw 1vw 0;
+  }
+}
+
+.topo-teste a.carrinho_divisao .name_qtd span {
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0 0.7vw 0 0;
+  font-family: Arial;
+}
+
+@media (min-width: 0) and (max-width: 991px) {
+  .topo-teste a.carrinho_divisao .name_qtd span {
+    font-size: 2.8vw;
+    margin: 0 2vw 0vw 0;
+  }
+}
+
+.topo-teste a.carrinho_divisao .name_qtd span u {
+  text-decoration: none;
+}
+/*# sourceMappingURL=Topo.css.map */
